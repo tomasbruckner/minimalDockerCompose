@@ -14,6 +14,7 @@ function start() {
 
         // we insert a document to DB and showcase that it actually 
         // returns data from DB (connection is working)
+        // see: https://docs.docker.com/compose/startup-order
         client
             .db('testDb')
             .collection('testCollection')
