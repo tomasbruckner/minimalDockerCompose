@@ -1,0 +1,17 @@
+{
+  "name": "dockercomposedemo",
+  "version": "1.0.0",
+  "description": "This is a super simple example how to connect two containers using Docker Compose. We will use Node.js container and MongoDB container.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
